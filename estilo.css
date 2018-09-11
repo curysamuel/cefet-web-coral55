@@ -1,2 +1,92 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+h1 {
+	color: #e90c0C;
+	font-size: 36px;
+	font-family: Ravie;
+	text-align: center;
+}
+
+h2 {
+	color: #333;
+	font-size: 24px;
+	font-family: "Trebuchet MS";
+	text-align: center;
+}
+
+#cabecalho span{
+	color: #d027aa;
+}
+
+#cardapio {
+	margin: 154px;
+	width: 646px;
+	background-color: rgba(255,255,255,0.2);
+	border: 1px solid #aac0ae;
+	position: relative;
+	top: 1px;
+}
+
+#lateral {
+	width: 154px;
+	float: left;
+}
+
+#lateral h2 {
+	transform: rotate(-90deg);
+	color: #333;
+	font-size: 48px;
+	font-family: "Verdana";
+	font-weight: bold;
+	float: right;
+	width: 145px;
+	text-align: center;
+}
+
+
+#recipiente {
+	background-image: linear-gradient(#f6f1b2, #4599b2);
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#ticket {
+	opacity: 0;
+	position: fixed;
+	top: 295px;
+	left: -73px;
+}
+
+#ticket:hover {
+	opacity: 1;
+}
+
+#rodape {
+	text-align: right;
+}
+
+#rodape img {
+	padding-top: 46px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+}
+
+#siri {
+	position: absolute;
+	top: 17px;
+	left: -10px;
+}
+
+#bolhas {
+	position: relative;
+	bottom: 14px;
+	right: 20px;	
+}
+
+#peixe {
+	position: relative;
+	left: -44px;
+}
